@@ -68,12 +68,14 @@ img {
     border-radius: 5px;
 }
 
-button{
+.botao{
+    text-align: center;
     font-weight: bold;
-    font-size: 20px;
-    width: 350px;
-    height: 35px;
-    background-color: greenyellow;
-    border-radius: 7%;
-    box-shadow: 2px 2px black;
+    font-size: 25px;
+    width: 400px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin-left: 100px;
+    border-radius: 5px;
 }

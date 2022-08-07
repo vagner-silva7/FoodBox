@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoodBox</title>
+    <title>Fantastic - FoodBox</title>
 
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <body>
 
-    <header>
 
         <div class="cabecalho">
 
-            <h1>FoodBox</h1>
+            <h1>Fantastic - FoodBox</h1>
 
-            <h2>Monte seu pedido e receba em 15 minutos</h2>
+            <h2>Monte seu pedido e receba em 30 minutos</h2>
 
         </div>
 
-    </header>
-
-    <main>
 
         <h3 class="item">Peça seu prato</h3>
 
-            <div class="produto">
+            <div id="esfiha" class="produto" onclick="escolherEsfiha()">
 
                 <img src="imagens/Esfiha.jpg">
 
@@ -41,7 +37,7 @@
 
             <br>
 
-            <div class="produto">
+            <div id="coxinha" class="produto" onclick="escolherCoxinha()">
 
                 <img src="imagens/coxinha.jpg">
 
@@ -55,7 +51,7 @@
 
             <h3 class="item">Peça seu refresco</h3>
 
-            <div class="produto">
+            <div id="refrigerante" class="produto" onclick="escolherRefrigerante()">
 
                 <img src="imagens/refrigerante.jpg">
 
@@ -69,7 +65,7 @@
 
             <br>
 
-            <div class="produto">
+            <div id="suco" class="produto" onclick="escolherSuco()">
 
                 <img src="imagens/suco.jpg">
 
@@ -83,7 +79,7 @@
 
             <h3 class="item">Peça seu sobremesa</h3>
 
-            <div class="produto">
+            <div id="gelatina" class="produto" onclick="escolherGelatina()">
 
                 <img src="imagens/gelatina.jpg">
 
@@ -97,7 +93,7 @@
 
             <br>
 
-            <div class="produto">
+            <div id="chocolate" class="produto" onclick="escolherChocolate()">
 
                 <img src="imagens/chocolate.jpg">
 
@@ -111,15 +107,15 @@
 
             <br>
 
-            <button>Envie de pedido por whatsapp</button>
+            <div class="botao" onclick="finalizarPedido()">
+                Envio de pedido por whatsapp
+            </div>
 
             <br>
 
-    </main>
 
-    <footer>
 
-    </footer>
-    
+    <script src="js/script.js"></script>
+
 </body>
 </html>
